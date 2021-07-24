@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYPOO Commercial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header section -->
+    <section id="header">
+        <div class="container">
+            <img src="images/logo.png" class="logo" alt="logo">
+            <div class="header-text">
+                <h1>This is for learning websites for github</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus voluptate impedit eveniet amet, qui nostrum voluptatibus ut inventore officia molestias eum hic enim nesciunt dolores nihil ullam tempore. Ad?</p>
+                <button class="common-button">READ MORE</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">COURSES</a></li>
+            <li><a href="#">CONTACT US</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" alt="menu" id="menuButton">
+
+    <!-- About section -->
+
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/about.png" alt="about">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id modi vero eum voluptates totam nulla! Est aliquam mollitia nemo at cum animi nesciunt repellendus reiciendis, temporibus aliquid dolorum delectus? Officia, quam ex! Eligendi reprehenderit minus dolor veniam consequatur, voluptatibus inventore adipisci repudiandae asperiores quasi ratione dolore voluptatem enim quos aspernatur!</p>
+                <br><br>
+
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <h2>Learning is not attained by chance. it must be sought for with error and attended to with diligence</h2>
+                <h3>---Abigail----</h3>
+            </div>
+        </div>
+    </section>
+<!-- features -->
+<section id="features">
+    <div class="feature-row">
+        <div class="feature-col">
+            <img src="images/pic-1.png" alt="">
+            <h4>Learn Anywhere</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, perferendis?</p>
+        </div>
+        <div class="feature-col">
+            <img src="images/pic-2.png" alt="">
+            <h4>Expert Teacher</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, perferendis?</p>
+        </div>
+        <div class="feature-col">
+            <img src="images/pic-3.png" alt="">
+            <h4>Rocket Science</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, perferendis?</p>
+        </div>
+    </div>
+    <div class="feature-btn">
+        <div class="line">
+            <span class="line-1"></span><br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span>
+        </div>
+        <button class="common-button">Start Free Trial</button>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var menuButton = document.getElementById("menuButton");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuButton.onclick =function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+</html>
